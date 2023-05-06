@@ -1,4 +1,10 @@
 version: '3'
 services:
   x-ui:
-
+    image: enwaiax/x-ui:alpha-zh
+    container_name: x-ui
+    restart: unless-stopped
+    volumes:
+      - $PWD/db/:/etc/x-ui/
+      - $PWD/cert/:/root/cert/
+    network_mode: host
