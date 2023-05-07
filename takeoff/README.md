@@ -4,7 +4,14 @@
 
 ## 手动修改服务端地址和协议
 
-config.json
+运行init.sh脚本初始化ip地址
+
+```bash
+./init.sh run <YOUR-SERVER-IP-ADDRESS>
+./init.sh run 11.0.1.10
+```
+
+
 
 ## 启动
 
