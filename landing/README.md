@@ -2,7 +2,7 @@
 
 ## 流量着陆端
 
-| username | PASSWPORD |
+| username | PASSWORD |
 | -------- | --------- |
 | admin    | password  |
 
