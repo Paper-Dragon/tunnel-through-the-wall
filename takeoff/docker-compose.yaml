@@ -1,0 +1,12 @@
+version: '3'
+services:
+  xray:
+    image: teddysun/xray:1.8.1
+    container_name: xray
+    restart: unless-stopped
+    volumes:
+      - ./xray:/etc/xray
+    ports:
+      - 127.0.0.1:1080:1080
+    networks:
+      - bridge
