@@ -1,7 +1,7 @@
 version: '3'
 services:
   xui:
-    image: enwaiax/x-ui
+    image: enwaiax/x-ui:latest
     container_name: x-ui
     restart: unless-stopped
     volumes:
