@@ -2,9 +2,9 @@
 
 ## 流量着陆端
 
-| username | PASSWORD |
+| username | password |
 | -------- | --------- |
-| admin    | password  |
+| admin    | admin  |
 
 ```bash
 git clone https://github.com/Paper-Dragon/tunnel-through-the-wall.git && cd tunnel-through-the-wall/landing && docker-compose up -d
